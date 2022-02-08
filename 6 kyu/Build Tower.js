@@ -27,7 +27,7 @@ const towerBuilder = (nFloors) => {
     for (let i = 1; i <= nFloors; i += 1) {
         const spaces = ' '.repeat(nFloors - i);
         const stars = '*'.repeat(2 * i - 1);
-        const floor = `${spaces}${stars}${spaces}`
+        const floor = `${spaces}${stars}${spaces}`;
         tower.push(floor);
     }
 
